@@ -5,8 +5,8 @@ import streamlit as st
 import datetime
 
 
-day_df = pd.read_csv("day.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv("Dashboard/day.csv")
+hour_df = pd.read_csv("Dashboard/hour.csv")
 
 change_scale = {"temp":41, "atemp":50, "hum":100, "windspeed":67}
 
